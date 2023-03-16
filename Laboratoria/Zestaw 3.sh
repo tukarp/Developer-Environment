@@ -76,9 +76,9 @@ Zadanie 7
 
 X=$1
 
-for((i=1; i<=$X; i++))
+for((i = 1; i <= $X; i++))
 do
-	for((j=1; j<=i; j++))
+	for((j = 1; j <= i; j++))
 	do
 		echo -n "* ";
 	done
