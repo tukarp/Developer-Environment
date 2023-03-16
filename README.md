@@ -11,9 +11,9 @@
 
 ### Rozwiązania
 
-- [Zestaw 1]()
-- [Zestaw 2]()
-- [Zestaw 3]()
+- [Zestaw 1](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
+- [Zestaw 2](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%202.sh)
+- [Zestaw 3](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%203.sh)
 - [Latex](#latex)
 
 # Notatki
@@ -129,6 +129,8 @@ Napisz skrypt wyświetlający osoby których nazwisko zaczyna się na literę ``
 
 Napisz skrypt dodający nagłówek z tytułem danych. Na końcu zamieść podsumowanie ile osób dostało ocenę ```5```, a ile ```6``` (zliczanie umieszczone w kodzie polecenia).
 
+[Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
+
 ## Zestaw 2
 
 ### Zadanie 1
@@ -154,6 +156,8 @@ Napisz skrypt który pobierze jako parametr liczbę ```0 - 50```. Wartość ma z
 ### Zadanie 6
 
 Napisz skrypt który wyświetla dowolny tekst tyle razy ile chce użytkownik.
+
+[Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%202.sh)
 
 ## Zestaw 3
 
@@ -184,6 +188,8 @@ Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz o
 ### Zadanie 7
 
 Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
+
+[Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%203.sh)
 
 # Latex
 
