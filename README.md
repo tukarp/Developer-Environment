@@ -184,3 +184,10 @@ Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz o
 ### Zadanie 7
 
 Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
+
+## Prezentacja - Latex
+
+![Prezentacja - Latex](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/Latex%20-%20Prezentacja.pdf)
+
+- [Prezentacja](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/Latex%20-%20Prezentacja.pdf)
+- [Kod Źródłowy](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/main.tex)
