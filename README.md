@@ -16,9 +16,98 @@
 - [Zestaw 3]()
 - [Prezentacja - Latex](#prezentacja-latex)
 
-## Treści zadań
+# Notatki
 
-### Zestaw 1
+## Komendy
+
+### Pomoc
+
+- ```man``` - komenda służąca do wyświetlania strony manuala dla polecenia,
+- ```info``` -  komenda służąca do wyświetlania strony pomocy dla polecenia,
+- ```test --help``` - komenda służąca do wyświetlania krótką stronę pomocy dla komendy np. test,
+
+### Logowanie
+
+- ```logout``` - komenda służąca do wylogowania się z terminala,
+- ```exit``` - komenda służąca do zakończenia precesu powłoki: tcsh, bask itp.,
+- ```passwd``` - komenda służąca do zmiany hasła uzytkownika,
+- ```whoami``` - koemnda służąca do wyświetlania nazwy użytkownika,
+- ```id``` - komenda służąca do wyświetlania obecnej nazwy i grupy użytkownika wraz z numerami,
+- ```su``` - komenda służąca do zalogowania się jako inny użytkownik,
+- ```finger``` - komenda służąca do wypisania wszystkich obecnie zalogowanych użytkowników,
+
+### Podstawowe komendy
+
+- ```cd``` - komenda służąca do zmiany obecnego katalogu,
+- ```pwd``` - komenda służąca do wypisania ścieżki obecnego katalogu,
+- ```ls``` - komenda służąca do wyświetlenia katalogów,
+- ```cat``` - komenda służąca do wyświetlenia podanego pliku na standardowym wyjściu,
+- ```tac``` - komenda służąca do wypisania wszystkich podanych plików na standardowe wyjście w odwrotnej kolejności,
+- ```echo``` - komenda służąca do wyświetlenia na standardowym wyjściu słów podanych w argumencie,
+- ```wc``` - komenda służąca do zliczanie linii, słów lub znaków,
+- ```less``` - komenda służąca do szybkiego przeglądania plików tekstowych.
+
+### Pliki i katalogi
+
+- ```touch``` - komenda służąca do tworzenia, zmieniania, lub modyfikacji dostępu danego pliku,
+- ```cp``` - komenda służąca do kopiowania pliku,
+- ```mv``` - komenda służąca do przesuwania pliku lub zmiany jego nazwy,
+- ```rm``` - komenda służąca do kasowania pliku,
+- ```rm -r``` - komenda służąca do kasowania czegokolwiek,
+- ```mkdir``` - komenda służąca do utworzenia katalogu,
+- ```chmod``` - komenda służąca do zmiany praw dostępu pliku,
+- ```locate``` - komenda służąca do znalezienia pliku o podanej nazwie,
+- ```find``` - komenda służąca do przejrzenia katalogu w poszukiwaniu danego pliku.
+
+### Procesy
+
+- ```ps``` - komenda służąca do wypisania uruchomionych procesów,
+- ```bg``` - komenda służąca do uruchomienia na nowo zatrzymanego procesu lecz w tle,
+- ```fg``` - komenda służąca do uruchomienia na nowo zatrzymanego procesu na pierwszym planie,
+- ```jobs``` - komenda służąca do wyświetlenia listy zatrzymanych procesów,
+- ```kill``` - komenda służąca do wyłączania procesów
+- ```top``` - komenda służąca do otworzenia narzędzia do monitorowania procesów.
+
+### Dyski
+
+- ```df``` - komenda służąca do wypisania rozmiarów i ilości dostępnego miejsca na dyskach,
+- ```du``` - komenda służąca do policzenia rozmiarów podanego katalogu.
+
+### Środowisko
+
+- ```which``` - komenda służąca do wypisywania gdzie znajduje się plik z programem o podanej nazwie,
+- ```env``` - komenda służąca do wypisuje aktualne wartości wszystkich zmiennych środowiskowych,
+- ```alias``` - komenda służąca do ustawiania i wypisuje definicje skrótowych komend, które są obecnie ustawione w środowisku.
+
+Źródło: https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/
+
+## Operowanie na plikach tekstowych
+
+- ```head``` - komenda służąca do wypisywania na początku pliku,
+- ```tail``` - komenda służąca do wypisywania na końcu pliku,
+- ```wc``` - komenda służąca do zliczania znaków, słów,
+- ```cut``` - komenda służąca do wypisania wybranych części z każdej linii,
+- ```tr``` - komenda służąca do zamieniania / usuwania znaków,
+- ```sort``` - komenda służąca do sortowania po liniach,
+- ```uniq``` - komenda służąca do usuwania / znajdywania powtarzających się linii,
+- ```tac``` - komenda służąca do wypisywania plików od tyłu,
+- ```diff``` - komenda służąca do porównywania dwóch plików.
+
+Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
+
+## Przekierowania
+
+|       Symbol       |                                   Znaczenie                                          |
+| :----------------: | :----------------------------------------------------------------------------------: |
+|      < plik        | Podstawienie pod standardowe wejście                                                 |
+|        plik >      | Wypisywanie do standardowego wyjścia pliku, jeśli plik istniał to jest nadpisywany.  |
+|     >> plik        | Wypisywanie wyjścia do pliku, jeśli plik istniał to jest dopisywane na jego końcu.   |
+
+Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wprowadzenie_do_Basha
+
+# Treści zadań
+
+## Zestaw 1
 
 ### Zadanie 1
 
@@ -40,7 +129,7 @@ Napisz skrypt wyświetlający osoby których nazwisko zaczyna się na literę ``
 
 Napisz skrypt dodający nagłówek z tytułem danych. Na końcu zamieść podsumowanie ile osób dostało ocenę ```5```, a ile ```6``` (zliczanie umieszczone w kodzie polecenia).
 
-### Zestaw 2
+## Zestaw 2
 
 ### Zadanie 1
 
@@ -66,7 +155,7 @@ Napisz skrypt który pobierze jako parametr liczbę ```0 - 50```. Wartość ma z
 
 Napisz skrypt który wyświetla dowolny tekst tyle razy ile chce użytkownik.
 
-### Zestaw 3
+## Zestaw 3
 
 ### Zadanie 1
 
