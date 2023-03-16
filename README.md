@@ -90,4 +90,8 @@ Napisz skrypt który wyświetla datę w formacie ```DD.MM.YYYY```.
 
 ### Zadanie 6
 
+Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz od użytkownmika liczbę z zakresu ```1 - 100``` i sprawdź czy liczby są równe, jeśli nie wyświetl odpowiedni komunikat.
+
+### Zadanie 7
+
 Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
