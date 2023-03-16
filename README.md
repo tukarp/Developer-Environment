@@ -7,14 +7,14 @@
 - [Zestaw 1](#zestaw-1)
 - [Zestaw 2](#zestaw-2)
 - [Zestaw 3](#zestaw-3)
-- [Prezentacja - Latex](#prezentacja-latex)
+- [Prezentacja - Latex](#prezentacja---latex)
 
 ### Rozwiązania
 
 - [Zestaw 1]()
 - [Zestaw 2]()
 - [Zestaw 3]()
-- [Prezentacja - Latex](#prezentacja-latex)
+- [Prezentacja - Latex](#prezentacja---latex)
 
 # Notatki
 
