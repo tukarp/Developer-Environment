@@ -7,14 +7,14 @@
 - [Zestaw 1](#zestaw-1)
 - [Zestaw 2](#zestaw-2)
 - [Zestaw 3](#zestaw-3)
-- [Prezentacja - Latex](#prezentacja---latex)
+- [Latex](#latex)
 
 ### Rozwiązania
 
 - [Zestaw 1]()
 - [Zestaw 2]()
 - [Zestaw 3]()
-- [Prezentacja - Latex](#prezentacja---latex)
+- [Latex](#latex)
 
 # Notatki
 
@@ -185,9 +185,9 @@ Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz o
 
 Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
 
-## Prezentacja - Latex
+# Latex
 
-![Prezentacja - Latex](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/Latex%20-%20Prezentacja.pdf)
+## Prezentacja
 
 - [Prezentacja](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/Latex%20-%20Prezentacja.pdf)
 - [Kod Źródłowy](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/main.tex)
