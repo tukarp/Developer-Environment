@@ -150,7 +150,7 @@ grep wzorzec plik1 plik2
 - ```#!/bin/bash``` - skrpt zaczyna się od wskazania na rodzaj shella w jakim skrypt ma być wykonywany,
 - ```#``` - komentarz zaczyna się od tego znaku,
 - ```./skrypt``` - w taki sposób uruchamiamy skrypt,
-- ```/heome/user/skrypt``` - lub podając pełną ścieżkę,
+- ```/home/user/skrypt``` - lub podając pełną ścieżkę,
 
 ### Polecenie echo
 
