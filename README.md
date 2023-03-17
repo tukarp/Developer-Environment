@@ -24,7 +24,7 @@
 
 - ```man``` - komenda służąca do wyświetlania strony manuala dla polecenia,
 - ```info``` -  komenda służąca do wyświetlania strony pomocy dla polecenia,
-- ```test --help``` - komenda służąca do wyświetlania krótką stronę pomocy dla komendy np. test,
+- ```test --help``` - komenda służąca do wyświetlania krótką stronę pomocy dla komendy np. test.
 
 ### Logowanie
 
@@ -34,7 +34,7 @@
 - ```whoami``` - komenda służąca do wyświetlania nazwy użytkownika,
 - ```id``` - komenda służąca do wyświetlania obecnej nazwy i grupy użytkownika wraz z numerami,
 - ```su``` - komenda służąca do zalogowania się jako inny użytkownik,
-- ```finger``` - komenda służąca do wypisania wszystkich obecnie zalogowanych użytkowników,
+- ```finger``` - komenda służąca do wypisania wszystkich obecnie zalogowanych użytkowników.
 
 ### Podstawowe komendy
 
@@ -156,7 +156,7 @@ grep wzorzec plik1 plik2
 
 - ```echo "Hello, world!"``` - komenda służąca do wypisywania na ekranie,
 - ```echo "Hello, world!" > plik``` - komenda przekierowująca wiadomość do pliku, jeśli nie istnieje zostanie on utworzony,
-- ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku,, w tym przypadku wiadomośc zostanie dopisana na końcu pliku.
+- ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku, w tym przypadku wiadomośc zostanie dopisana na końcu pliku.
 
 Parametry polecenia echo:
 
