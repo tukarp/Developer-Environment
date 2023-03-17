@@ -106,8 +106,7 @@
 - ```diff``` - komenda służąca do porównywania dwóch plików.
 
 
-Źródło: https://wazniak.mimuw.edu.pl/index.php?
-title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
+Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
 
 ## Grep
 
