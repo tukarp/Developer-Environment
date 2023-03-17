@@ -31,7 +31,7 @@
 - ```logout``` - komenda służąca do wylogowania się z terminala,
 - ```exit``` - komenda służąca do zakończenia precesu powłoki: tcsh, bask itp.,
 - ```passwd``` - komenda służąca do zmiany hasła uzytkownika,
-- ```whoami``` - koemnda służąca do wyświetlania nazwy użytkownika,
+- ```whoami``` - komenda służąca do wyświetlania nazwy użytkownika,
 - ```id``` - komenda służąca do wyświetlania obecnej nazwy i grupy użytkownika wraz z numerami,
 - ```su``` - komenda służąca do zalogowania się jako inny użytkownik,
 - ```finger``` - komenda służąca do wypisania wszystkich obecnie zalogowanych użytkowników,
@@ -58,8 +58,8 @@
 - ```mkdir``` - komenda służąca do utworzenia katalogu,
 - ```chmod``` - komenda służąca do zmiany praw dostępu pliku,
 - ```locate``` - komenda służąca do znalezienia pliku o podanej nazwie,
-- ```find``` - komenda służąca do przejrzenia katalogu w poszukiwaniu danego pliku.
-- ```zip``` - komenda służąca do spakowania plików w formacie zip.
+- ```find``` - komenda służąca do przejrzenia katalogu w poszukiwaniu danego pliku,
+- ```zip``` - komenda służąca do spakowania plików w formacie zip,
 - ```tar``` - komenda służąca do spakowania plików w formacie tar.
 
 ### Procesy
@@ -68,7 +68,7 @@
 - ```bg``` - komenda służąca do uruchomienia na nowo zatrzymanego procesu lecz w tle,
 - ```fg``` - komenda służąca do uruchomienia na nowo zatrzymanego procesu na pierwszym planie,
 - ```jobs``` - komenda służąca do wyświetlenia listy zatrzymanych procesów,
-- ```kill``` - komenda służąca do wyłączania procesów
+- ```kill``` - komenda służąca do wyłączania procesów,
 - ```top``` - komenda służąca do otworzenia narzędzia do monitorowania procesów.
 
 ### Dyski
@@ -91,7 +91,7 @@
 - ```clear``` - komenda służąca do czyszczenia okna w terminalu,
 - ```reset``` - komenda służąca do resetowania terminala,
 - ```history``` - komenda służąca do wyświetlenia historii komend terminala,
-- ```history -c``` - komenda służąca do czyszczenia historii komend terminala
+- ```history -c``` - komenda służąca do czyszczenia historii komend terminala.
 
 ## Operowanie na plikach tekstowych
 
@@ -150,13 +150,13 @@ grep wzorzec plik1 plik2
 - ```#!/bin/bash``` - skrpt zaczyna się od wskazania na rodzaj shella w jakim skrypt ma być wykonywany,
 - ```#``` - komentarz zaczyna się od tego znaku,
 - ```./skrypt``` - w taki sposób uruchamiamy skrypt,
-- ```/home/user/skrypt``` - lub podając pełną ścieżkę,
+- ```/home/user/skrypt``` - lub podając pełną ścieżkę.
 
 ### Polecenie echo
 
 - ```echo "Hello, world!"``` - komenda służąca do wypisywania na ekranie,
 - ```echo "Hello, world!" > plik``` - komenda przekierowująca wiadomość do pliku, jeśli nie istnieje zostanie on utworzony,
-- ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku,, w tym przypadku wiadomośc zostanie dopisana na końcu pliku,
+- ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku,, w tym przypadku wiadomośc zostanie dopisana na końcu pliku.
 
 Parametry polecenia echo:
 
@@ -359,14 +359,14 @@ factorial $number
   - ```report``` - reportaż,
   - ```book``` - książka,
   - ```letter``` - list,
-  - ```memoir``` - rozprawa.
+  - ```memoir``` - rozprawa,
 - ```Style czcionek:```
   - ```textsf{}``` – czcionka bezszeryfowa,
   - ```texttt{}``` – czcionka o stałej szerokości,
   - ```textit{}``` – czcionka pochyła,
   - ```textbf{}``` – czcionka pogrubiona,
   - ```textsc{}``` – małe kapitaliki,
-  - ```uppercase{}``` – fragment pisany wielkimi literami.
+  - ```uppercase{}``` – fragment pisany wielkimi literami,
 - ```\author{}``` - komenda definiująca autora dokumentu,
 - ```\title``` - komenda definiująca tytuł dokumentu,
 - ```\date{}``` - komenda wyświetlająca datę w dokumencie,
