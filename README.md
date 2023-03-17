@@ -44,6 +44,7 @@
 - ```cat``` - komenda służąca do wyświetlenia podanego pliku na standardowym wyjściu,
 - ```tac``` - komenda służąca do wypisania wszystkich podanych plików na standardowe wyjście w odwrotnej kolejności,
 - ```echo``` - komenda służąca do wyświetlenia na standardowym wyjściu słów podanych w argumencie,
+- ```date``` - komenda służąca do wypisania aktualnej daty na standardowym wyjściu,
 - ```wc``` - komenda służąca do zliczanie linii, słów lub znaków,
 - ```less``` - komenda służąca do szybkiego przeglądania plików tekstowych.
 
@@ -58,6 +59,8 @@
 - ```chmod``` - komenda służąca do zmiany praw dostępu pliku,
 - ```locate``` - komenda służąca do znalezienia pliku o podanej nazwie,
 - ```find``` - komenda służąca do przejrzenia katalogu w poszukiwaniu danego pliku.
+- ```zip``` - komenda służąca do spakowania plików w formacie zip.
+- ```tar``` - komenda służąca do spakowania plików w formacie tar.
 
 ### Procesy
 
@@ -130,7 +133,7 @@ grep wzorzec plik1 plik2
 
 Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wyra%C5%BCenia_regularne
 
-## Przekierowania
+## Strumienie danych
 
 |       Symbol       |                                   Znaczenie                                          |
 | :----------------: | :----------------------------------------------------------------------------------: |
@@ -139,6 +142,198 @@ grep wzorzec plik1 plik2
 |     >> plik        | Wypisywanie wyjścia do pliku, jeśli plik istniał to jest dopisywane na jego końcu.   |
 
 Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wprowadzenie_do_Basha
+
+## Bash
+
+### Podstawy
+
+- ```#!/bin/bash``` - skrpt zaczyna się od wskazania na rodzaj shella w jakim skrypt ma być wykonywany,
+- ```#``` - komentarz zaczyna się od tego znaku,
+- ```./skrypt``` - w taki sposób uruchamiamy skrypt,
+- ```/heome/user/skrypt``` - lub podając pełną ścieżkę,
+
+### Polecenie echo
+
+- ```echo "Hello, world!"``` - komenda służąca do wypisywania na ekranie,
+- ```echo "Hello, world!" > plik``` - komenda przekierowująca wiadomość do pliku, jeśli nie istnieje zostanie on utworzony,
+- ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku,, w tym przypadku wiadomośc zostanie dopisana na końcu pliku,
+
+Parametry polecenia echo:
+
+- ```-n``` - brak nowej linii,
+- ```-e``` - włącza interpretację znaków specjalnych:
+  - ```\a``` - dzwonek,
+  - ```\b``` - backspace,
+  - ```\c``` - pomijanie znaku kończącego nową linię,
+  - ```\f``` - escape,
+  - ```\n``` - wysuw strony,
+  - ```\r``` - znak nowej linii,
+  - ```\t``` - tabulacja pozioma,
+  - ```\v``` - tabulacja pionowa,
+  - ```\\``` - backslash.
+  
+### Lista słów zastrzeżonych
+
+- ```!```,
+- ```case``` - warunek wyboru,
+- ```esac``` - zakończ warunek wyboru,
+- ```do``` - zrób coś,
+- ```done``` - zakończ działanie czegoś,
+- ```if``` - instrukcja warunkowa jeśli,
+- ```fi``` - zakończ instrukcję warunkową jeśli,
+- ```else``` - instrukcja warunkowa w innym przypadku,
+- ```elif``` - instrukcja warunkowa w innym przypadku, jeśli,
+- ```for``` - instrukcja warunkowa dla,
+- ```function``` - definicja funkcji,
+- ```in``` - w,
+- ```select``` - wybierz,
+- ```then``` - następnie,
+- ```until``` - instrukcja warunkowa dopóki,
+- ```while``` - instrukcja warunkowa podczas,
+- ```time``` - czas,
+- ```{ }```,
+- ```[ ]```.
+
+### Cytowanie
+
+- ```" "``` - cudzysłów - zachowuje znaczenie znaków specjalnych,
+- ```' '``` - apostrof - interpretuje występowanie znaków specjalnych,
+- ``` ` ` ``` - odwrócony apostrof - umożliwia zacytowanie polecenia.
+
+### Zmienne programowe
+
+Zdefiniowanie zmiennej:
+```
+variable1=5
+echo $variable1
+5
+```
+
+Zdefiniowanie zmienna obliczonej wyrażeniem arytmetycznym:
+```
+let variable2=variable1*2
+echo $variable2
+10
+```
+
+### Zmienne specjalne
+
+- ```$0``` - nazwa bieżącego skryptu powłoki,
+- ```$1..$9``` - parametry przekazywane do skryptu,
+- ```$@``` - wszystkie parametry przekazywane do skryptu,
+- ```$?``` - kod powrotu ostatnio wykonywanego polecenia,
+- ```$$``` - PID procesu bieżącej powłoki.
+
+### Zmienne tablicowe
+
+Przykład zmiennych tablicowych:
+
+Input:
+```
+#!/bin/bash
+value1=1
+value2=2
+value3=3
+array=(${value1} ${value2} ${value3})
+echo ${array[0]}
+echo ${array[1]}
+echo ${array[2]}
+```
+Output:
+```
+1
+2
+3
+```
+
+### Instrukcje warunkowe
+
+- ```if```
+
+```
+if condition
+then
+  command
+fi
+```
+
+- ```case```
+
+```
+case variable in
+"1") command;;
+"2") command;;
+"3") command;;
+```
+
+### Pętle
+
+- ```for```
+
+```
+for variable in something
+do
+  command
+done
+```
+
+- ```while```
+
+```
+while condition
+do
+  command
+done
+```
+
+- ```until```
+
+```
+until condition
+do
+  command
+done
+```
+
+- ```select```
+
+```
+for variable in something
+do
+  command
+done
+```
+
+### Funkcje
+
+Definiowanie funkcji:
+```
+# funkcja obliczająca silnię
+function factorial() {
+  product=$1
+  if((product <= 2));
+  then
+    echo $product
+  else
+    f=$((product - 1))
+    
+f=$(factorial $f)
+f=$((f*product))
+echo $f
+fi
+}
+
+# main
+read number
+factorial $number
+```
+
+```
+5
+120
+```
+
+Źródło: http://www.cs.put.poznan.pl/anstroinski/data/uploads/sop1/materials/sop1_lab7-kurs.html
 
 # Treści zadań
 
