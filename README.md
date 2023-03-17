@@ -81,6 +81,15 @@
 
 Źródło: https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/
 
+## Komendy operujące na terminalu
+
+- ```echo``` - komenda służąca do wyświetlenia w terminalu,
+- ```sleep``` - komenda służąca do zawieszenia wykonania działania w terminalu,
+- ```clear``` - komenda służąca do czyszczenia okna w terminalu,
+- ```reset``` - komenda służąca do resetowania terminala,
+- ```history``` - komenda służąca do wyświetlenia historii komend terminala,
+- ```history -c``` - komenda służąca do czyszczenia historii komend terminala
+
 ## Operowanie na plikach tekstowych
 
 - ```head``` - komenda służąca do wypisywania na początku pliku,
@@ -93,7 +102,33 @@
 - ```tac``` - komenda służąca do wypisywania plików od tyłu,
 - ```diff``` - komenda służąca do porównywania dwóch plików.
 
-Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
+
+Źródło: https://wazniak.mimuw.edu.pl/index.php?
+title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
+
+## Grep
+
+Podstawowe użycie, to:
+```
+grep wzorzec
+```
+
+Można podać plik lub pliki jako argumenty
+```
+grep wzorzec plik1 plik2
+```
+
+### Opcje szukania i wyświetlania informacji
+
+- ```grep -e wzorzec``` - przydatne gry wyrażenie regularne może zaczynać się od znaku,
+- ```grep -i``` - ignoruje rozróżnianie wielkich liter,
+- ```grep -c``` - zlicza liczbę wystąpień wzorca,
+- ```grep -w``` - dopasowuje wzorzec tylko do całych słów,
+- ```grep -x``` - dopasowuje wzorzec tylko do całych linii,
+- ```grep -v``` - odwraca sens dopasowania i wyszuykuje tylko linie w których nie udało się dopasować wzorca,
+- ```grep -q``` - nic nie wypisuję, kończy działanie po znalezieniu pierwszego dopasowania.
+
+Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wyra%C5%BCenia_regularne
 
 ## Przekierowania
 
