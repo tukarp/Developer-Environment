@@ -354,11 +354,19 @@ factorial $number
 ### Komendy
 
 - ```\documentclass[font]{style}``` - komenda definiująca wygląd dokumentu,
-  - article,
-  - report,
-  - book,
-  - letter,
-  - memoir.
+- ```Style dokumentu:```
+  - ```article``` - artykuł,
+  - ```report``` - reportaż,
+  - ```book``` - książka,
+  - ```letter``` - list,
+  - ```memoir``` - rozprawa.
+- ```Style czcionek:```
+  - ```textsf{}``` – czcionka bezszeryfowa,
+  - ```texttt{}``` – czcionka o stałej szerokości,
+  - ```textit{}``` – czcionka pochyła,
+  - ```textbf{}``` – czcionka pogrubiona,
+  - ```textsc{}``` – małe kapitaliki,
+  - ```uppercase{}``` – fragment pisany wielkimi literami.
 - ```\author{}``` - komenda definiująca autora dokumentu,
 - ```\title``` - komenda definiująca tytuł dokumentu,
 - ```\date{}``` - komenda wyświetlająca datę w dokumencie,
@@ -374,7 +382,8 @@ factorial $number
 - ```\caption{}``` - komenda dodająca opis do danego elementu w dokumencie,
 - ```\begin{itemize}``` - komenda tworząca wypunktowanie w dokumencie,
 - ```\begin{enumerate}``` - komenda tworząca wypunktowanie liczbowe w dokumencie,
-- ```\begin{equation}``` - komenda rozpoczynająca możliwość tworzenia równań matematycznych w dokumencie.
+- ```\begin{equation}``` - komenda rozpoczynająca możliwość tworzenia równań matematycznych w dokumencie,
+- ```\usepackage{}``` - komenda dodająca dodatkowe pakiety w dokumencie.
 
 Źródło: http://www.cs.put.poznan.pl/ksiek/pi/latex.html
 
