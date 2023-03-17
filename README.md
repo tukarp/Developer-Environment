@@ -349,6 +349,35 @@ factorial $number
 
 Źródło: http://www.cs.put.poznan.pl/anstroinski/data/uploads/sop1/materials/sop1_lab7-kurs.html
 
+## Latex
+
+### Komendy
+
+- ```\documentclass[font]{style}``` - komenda definiująca wygląd dokumentu,
+  - article,
+  - report,
+  - book,
+  - letter,
+  - memoir.
+- ```\author{}``` - komenda definiująca autora dokumentu,
+- ```\title``` - komenda definiująca tytuł dokumentu,
+- ```\date{}``` - komenda wyświetlająca datę w dokumencie,
+- ```\begin{}``` - komenda rozpoczynająca dany fragment dokumentu,
+- ```end{}``` - komenda kończąca dany fragment dokumentu,
+- ```\part{}``` - komenda definiująca część lub tom dokumentu,
+- ```\chapter{}``` - komenda definiująca rozdział dokumentu,
+- ```\section{}``` - komenda definiująca sekcję dokumentu,
+- ```\subsection{}``` - komenda definiująca podsekcję dokumentu,
+- ```\paragraph{}``` - komenda definiująca akapit dokumentu,
+- ```\subparagraph{}``` - komenda definiująca podakapit dokumentu,
+- ```\includegraphics{}``` - komenda dodająca grafikę do dokumentu,
+- ```\caption{}``` - komenda dodająca opis do danego elementu w dokumencie,
+- ```\begin{itemize}``` - komenda tworząca wypunktowanie w dokumencie,
+- ```\begin{enumerate}``` - komenda tworząca wypunktowanie liczbowe w dokumencie,
+- ```\begin{equation}``` - komenda rozpoczynająca możliwość tworzenia równań matematycznych w dokumencie.
+
+Źródło: http://www.cs.put.poznan.pl/ksiek/pi/latex.html
+
 # Treści zadań
 
 ## Zestaw 1
