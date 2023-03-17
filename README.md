@@ -308,6 +308,20 @@ done
 
 Definiowanie funkcji:
 ```
+function fun() {
+  command
+  command
+  command
+}
+```
+
+Przekazywanie parametrów do funkcji:
+```
+fun parameter1 parameter2
+```
+
+Przykład funkcji:
+```
 # funkcja obliczająca silnię
 function factorial() {
   product=$1
