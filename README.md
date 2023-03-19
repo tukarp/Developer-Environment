@@ -14,7 +14,7 @@
 - [Zestaw 1](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
 - [Zestaw 2](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%202.sh)
 - [Zestaw 3](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%203.sh)
-- [Latex](#latex)
+- [Latex](https://github.com/tukarp/Developer-Environment/tree/main/Prezentacja%20-%20Latex)
 
 # Notatki
 
@@ -406,10 +406,6 @@ Napisz skrypt wyświetlający imię i nazwisko osoby które dostały ocenę ```4
 
 Napisz skrypt wyświetlający osoby których nazwisko zaczyna się na literę ```K```, ```D``` lub ```S```, mają więcej niż ```31 lat``` i dostali ocenę ```5``` lub ```6```. Wyniki posortuj.
 
-### Zadanie 5
-
-Napisz skrypt dodający nagłówek z tytułem danych. Na końcu zamieść podsumowanie ile osób dostało ocenę ```5```, a ile ```6``` (zliczanie umieszczone w kodzie polecenia).
-
 [Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
 
 ## Zestaw 2
@@ -444,29 +440,25 @@ Napisz skrypt który wyświetla dowolny tekst tyle razy ile chce użytkownik.
 
 ### Zadanie 1
 
-Napisz skrypt który zmieni nazwy wszystkich plików w danym katalogu (parametr wywołania skryptu), do których posiadamy prawo zapisu, przez dopisanie dodatkowego członu ```.old```. Wcześniej kasuje wszystkie pliki mające takie rozszerzenie.
+Napisz skrypt który tworzy nowe pliki w danym ```katalogu``` (parametr wywołania skryptu), według listy umieszczonej w pliku (drugi parametr wywołania skryptu). Nowe pliki mają być puste. Jeśli któryś z plików istnieje, to nie jest on usuwany.
 
 ### Zadanie 2
 
-Napisz skrypt który tworzy nowe pliki w danym ```katalogu``` (parametr wywołania skryptu), według listy umieszczonej w pliku (drugi parametr wywołania skryptu). Nowe pliki mają być puste. Jeśli któryś z plików istnieje, to nie jest on usuwany.
+Napisz skrypt porównujący zawartości dwóch zadanych ```katalogów``` (parametry wywołania skryptu). Przy porównywaniu ```ignoruje podkatalogi```. W wyniku wyświetla na ekranie listę identycznych plików w obu katalogach.
 
 ### Zadanie 3
 
-Napisz skrypt porównujący zawartości dwóch zadanych ```katalogów``` (parametry wywołania skryptu). Przy porównywaniu ```ignoruje podkatalogi```. W wyniku wyświetla na ekranie listę identycznych plików w obu katalogach.
+Napisz skrypt zliczający wszystkie pliki w danym ```katalogu``` (parametr wywołania skryptu), do których ustawione jest prawo do ```wykonywania```.
 
 ### Zadanie 4
 
-Napisz skrypt zliczający wszystkie pliki w danym ```katalogu``` (parametr wywołania skryptu), do których ustawione jest prawo do ```wykonywania```.
+Napisz skrypt który wyświetla datę w formacie ```DD.MM.YYYY```.
 
 ### Zadanie 5
 
-Napisz skrypt który wyświetla datę w formacie ```DD.MM.YYYY```.
-
-### Zadanie 6
-
 Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz od użytkownmika liczbę z zakresu ```1 - 100``` i sprawdź czy liczby są równe, jeśli nie wyświetl odpowiedni komunikat.
 
-### Zadanie 7
+### Zadanie 6
 
 Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
 
