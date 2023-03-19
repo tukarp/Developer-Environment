@@ -370,7 +370,7 @@ factorial $number
 - ```\title``` - komenda definiująca tytuł dokumentu,
 - ```\date{}``` - komenda wyświetlająca datę w dokumencie,
 - ```\begin{}``` - komenda rozpoczynająca dany fragment dokumentu,
-- ```end{}``` - komenda kończąca dany fragment dokumentu,
+- ```\end{}``` - komenda kończąca dany fragment dokumentu,
 - ```\part{}``` - komenda definiująca część lub tom dokumentu,
 - ```\chapter{}``` - komenda definiująca rozdział dokumentu,
 - ```\section{}``` - komenda definiująca sekcję dokumentu,
