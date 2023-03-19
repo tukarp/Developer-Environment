@@ -1,6 +1,4 @@
 Zadanie 1
-
-Zadanie 2
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
@@ -25,12 +23,12 @@ for i in $plik
 	fi
 done
 
-Zadanie 3
+Zadanie 2
 #!/bin/bash
 
 diff -s $1 $2
 
-Zadanie 4
+Zadanie 3
 #!/bin/bash
 cd $1
 
@@ -48,12 +46,12 @@ else
 fi
 echo "Liczba plikow z prawem do wykonania: $X"
 
-Zadanie 5
+Zadanie 4
 #!/bin/bash
 
 date "+Dzisiejsza data: %d.%m.%Y"
 
-Zadanie 6
+Zadanie 5
 #!/bin/bash
 
 echo "Zgadnij liczbe od 1 do 100"
@@ -71,7 +69,7 @@ fi
 echo $A
 #wyswietlenie wylosowanej liczby
 
-Zadanie 7
+Zadanie 6
 #!/bin/bash
 
 X=$1
