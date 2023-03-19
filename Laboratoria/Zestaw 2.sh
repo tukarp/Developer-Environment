@@ -54,15 +54,14 @@ done
 Zadanie 6
 #!/bin/bash
 
-echo "Podaj tekst"
+echo "Podaj napis ktory chcesz wyswietlic:"
 read A
 
-echo "Podaj ile razy chcesz wyswietlic tekst"
+echo "Podaj ile razy chcesz go wyswietlic"
 read B
 
-X=0
-
-until [ $X -eq $B ]; do
-echo $A;
-X=$(($X + 1));
+for((i = 0; i < $B; i++))
+do
+    echo $A;
 done
+
