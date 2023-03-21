@@ -18,7 +18,7 @@
 
 # Notatki
 
-## Komendy
+## Komendy - Linux
 
 ### Pomoc
 
@@ -198,6 +198,44 @@ Parametry polecenia echo:
 - ```" "``` - cudzysłów - zachowuje znaczenie znaków specjalnych,
 - ```' '``` - apostrof - interpretuje występowanie znaków specjalnych,
 - ``` ` ` ``` - odwrócony apostrof - umożliwia zacytowanie polecenia.
+
+### Porównania
+
+Porównywanie liczb
+
+- ```number1 -eq number2``` - prawda gdy number1 jest równa number2,
+- ```number1 -ne number2``` - prawda gdy number1 nie jest równa number2,
+- ```number1 -gt number2``` - prawda gdy number1 jest większa od number2,
+- ```number1 -lt number2``` - prawda gdy number1 jest mniejsza od number2,
+- ```number1 -ge number2``` - prawda gdy number1 jest jest większa lub równa number2,
+- ```number1 -le number2``` - prawda gdy number1 jest mniejsza lub równa number2.
+
+Porównywanie tekstów
+
+- ```string1 = string2``` - prawda gdy string1 jest taki sam jak string2,
+- ```string1 != string2``` - prawda gdy string1 jest różny od string2,
+- ```-n string``` - prawda gdy string nie jest pusty,
+- ```-z string``` - prawda gdy string jest pusty.
+
+Warunki plików
+
+- ```-d file_name``` - pawda gdy plik jest katalogiem,
+- ```-f file_name``` - pawda gdy plik jest plikiem,
+- ```-e file_name``` - pawda gdy plik jest istnieje,
+- ```-h file_name``` - pawda gdy plik jest dowiązaniem symbolicznym,
+- ```-s file_name``` - pawda gdy plik ma wielkość więszką od 0.
+
+Prawa plików
+
+- ```-r file_name``` - pawda gdy plik ma prawo do odczytu,
+- ```-w file_name``` - pawda gdy plik ma prawo do zapisu,
+- ```-x file_name``` - pawda gdy plik prawo do uruchomienia.
+
+Operatory logiczne
+
+- ```!statement``` - pawda gdy warunek nie jest spełniony,
+- ```statement1 -a statement2``` - pawda gdy oba warunki są spełnione,
+- ```statement1 -o statement2``` - pawda gdy przynajmniej jeden z warunków jest spełniony.
 
 ### Zmienne programowe
 
