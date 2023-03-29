@@ -1,4 +1,4 @@
-# Developer-Environment
+# Środowisko Programisty
 
 ## Spis Treści
 
