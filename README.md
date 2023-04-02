@@ -25,7 +25,7 @@
 - [Komendy operujące na plikach tekstowych](#komendy-operujące-na-plikach-tekstowych)
 - [Grep](#grep)
   - [Opcje szukania i wyświetlania informacji](#opcje-szukania-i-wyświetlania-informacji)
-- [Strumienie danych](#strumienie danych)
+- [Strumienie danych](#strumienie-danych)
 - [Bash](#bash)
   - [Podstawy](#podstawy)
   - [Polecenie ```echo```](#polecenie-echo)
