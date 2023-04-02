@@ -4,17 +4,42 @@
 
 ### Laboratoria
 
+- [Laboratoria](#laboratoria-1)
 - [Zestaw 1](#zestaw-1)
 - [Zestaw 2](#zestaw-2)
 - [Zestaw 3](#zestaw-3)
 - [Latex](#latex)
 
-### Rozwiązania
+### Notatki
 
-- [Zestaw 1](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
-- [Zestaw 2](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%202.sh)
-- [Zestaw 3](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%203.sh)
-- [Latex](https://github.com/tukarp/Developer-Environment/tree/main/Prezentacja%20-%20Latex)
+- [Notatki](#notatki-1)
+- [Komendy - Linux](#komendy---linux)
+  - [Pomoc](#pomoc)
+  - [Logowanie](#logowanie)
+  - [Podstawowe komendy](#podstawowe-komendy)
+  - [Pliki i katalogi](#pliki-i-katalogi)
+  - [Procesy](#procesy)
+  - [Dyski](#dyski)
+  - [Środowisko](#środowisko)
+- [Komendy operujące na terminalu](#komendy-operujące-na-terminalu)
+- [Komendy operujące na plikach tekstowych](#komendy-operujące-na-plikach-tekstowych)
+- [Grep](#grep)
+  - [Opcje szukania i wyświetlania informacji](#opcje-szukania-i-wyświetlania-informacji)
+- [Strumienie danych](#strumienie danych)
+- [Bash](#bash)
+  - [Podstawy](#podstawy)
+  - [Polecenie ```echo```](#polecenie-echo)
+  - [Lista słów zastrzeżonych](#lista-słów-zastrzeżonych)
+  - [Cytowanie](#cytowanie)
+  - [Porównywanie](#porównywanie)
+  - [Zmienne programowe](#zmienne-programowe)
+  - [Zmienne specjalne](#zmienne-specjalne)
+  - [Zmienne tablicowe](#zmienne-tablicowe)
+  - [Instrukcje warunkowe](#instrukcje-warunkowe)
+  - [Pętle](#pętle)
+  - [Funkcje](#funkcje)
+- [Latex](#latex)
+  - [Komendy](#komendy)
 
 # Notatki
 
@@ -93,7 +118,7 @@
 - ```history``` - komenda służąca do wyświetlenia historii komend terminala,
 - ```history -c``` - komenda służąca do czyszczenia historii komend terminala.
 
-## Operowanie na plikach tekstowych
+## Komendy operujące na plikach tekstowych
 
 - ```head``` - komenda służąca do wypisywania na początku pliku,
 - ```tail``` - komenda służąca do wypisywania na końcu pliku,
@@ -151,13 +176,13 @@ grep wzorzec plik1 plik2
 - ```./skrypt``` - w taki sposób uruchamiamy skrypt,
 - ```/home/user/skrypt``` - lub podając pełną ścieżkę.
 
-### Polecenie echo
+### Polecenie ```echo```
 
 - ```echo "Hello, world!"``` - komenda służąca do wypisywania na ekranie,
 - ```echo "Hello, world!" > plik``` - komenda przekierowująca wiadomość do pliku, jeśli nie istnieje zostanie on utworzony,
 - ```echo "Hello, world!" >> plik``` - komenda przekierowująca wiadomość do pliku, w tym przypadku wiadomośc zostanie dopisana na końcu pliku.
 
-Parametry polecenia echo:
+Parametry polecenia ```echo```:
 
 - ```-n``` - brak nowej linii,
 - ```-e``` - włącza interpretację znaków specjalnych:
@@ -199,7 +224,7 @@ Parametry polecenia echo:
 - ```' '``` - apostrof - interpretuje występowanie znaków specjalnych,
 - ``` ` ` ``` - odwrócony apostrof - umożliwia zacytowanie polecenia.
 
-### Porównania
+### Porównywanie
 
 Porównywanie liczb
 
@@ -424,7 +449,7 @@ factorial $number
 
 Źródło: http://www.cs.put.poznan.pl/ksiek/pi/latex.html
 
-# Treści zadań
+# Laboratoria
 
 ## Zestaw 1
 
