@@ -107,8 +107,6 @@
 - ```env``` - komenda służąca do wypisuje aktualne wartości wszystkich zmiennych środowiskowych,
 - ```alias``` - komenda służąca do ustawiania i wypisuje definicje skrótowych komend, które są obecnie ustawione w środowisku.
 
-Źródło: https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/
-
 ## Komendy operujące na terminalu
 
 - ```echo``` - komenda służąca do wyświetlenia w terminalu,
@@ -129,9 +127,6 @@
 - ```uniq``` - komenda służąca do usuwania / znajdywania powtarzających się linii,
 - ```tac``` - komenda służąca do wypisywania plików od tyłu,
 - ```diff``` - komenda służąca do porównywania dwóch plików.
-
-
-Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
 
 ## Grep
 
@@ -155,8 +150,6 @@ grep wzorzec plik1 plik2
 - ```grep -v``` - odwraca sens dopasowania i wyszuykuje tylko linie w których nie udało się dopasować wzorca,
 - ```grep -q``` - nic nie wypisuję, kończy działanie po znalezieniu pierwszego dopasowania.
 
-Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wyra%C5%BCenia_regularne
-
 ## Strumienie danych
 
 |       Symbol       |                                   Znaczenie                                          |
@@ -164,8 +157,6 @@ grep wzorzec plik1 plik2
 |      < plik        | Podstawienie pod standardowe wejście                                                 |
 |        plik >      | Wypisywanie do standardowego wyjścia pliku, jeśli plik istniał to jest nadpisywany.  |
 |     >> plik        | Wypisywanie wyjścia do pliku, jeśli plik istniał to jest dopisywane na jego końcu.   |
-
-Źródło: https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wprowadzenie_do_Basha
 
 ## Bash
 
@@ -407,9 +398,7 @@ factorial $number
 ```
 5
 120
-```
-
-Źródło: http://www.cs.put.poznan.pl/anstroinski/data/uploads/sop1/materials/sop1_lab7-kurs.html
+``` 
 
 ## Latex
 
@@ -447,7 +436,31 @@ factorial $number
 - ```\begin{equation}``` - komenda rozpoczynająca możliwość tworzenia równań matematycznych w dokumencie,
 - ```\usepackage{}``` - komenda dodająca dodatkowe pakiety w dokumencie.
 
-Źródło: http://www.cs.put.poznan.pl/ksiek/pi/latex.html
+## Źródła
+
+```
+https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/
+```
+
+```
+https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Bash_-_podstawowe_komendy
+```
+
+```
+https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wyra%C5%BCenia_regularne
+```
+
+```
+https://wazniak.mimuw.edu.pl/index.php?title=%C5%9Arodowisko_programisty/Wprowadzenie_do_Basha
+```
+
+```
+http://www.cs.put.poznan.pl/anstroinski/data/uploads/sop1/materials/sop1_lab7-kurs.html
+```
+
+```
+http://www.cs.put.poznan.pl/ksiek/pi/latex.html
+```
 
 # Laboratoria
 
