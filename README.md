@@ -351,7 +351,7 @@ done
 - ```select```
 
 ```
-for variable in something
+select item in something
 do
   command
 done
