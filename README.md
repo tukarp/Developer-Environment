@@ -4,11 +4,11 @@
 
 ### Laboratoria
 
-- [Laboratoria](#laboratoria-1)
-- [Zestaw 1](#zestaw-1)
-- [Zestaw 2](#zestaw-2)
-- [Zestaw 3](#zestaw-3)
-- [Latex](#latex)
+- [Laboratoria](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria)
+- [Zestaw 1](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2001)
+- [Zestaw 2](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2002)
+- [Zestaw 3](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2003)
+- [Prezentacja - Latex](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex)
 
 ### Notatki
 
@@ -461,88 +461,3 @@ http://www.cs.put.poznan.pl/anstroinski/data/uploads/sop1/materials/sop1_lab7-ku
 ```
 http://www.cs.put.poznan.pl/ksiek/pi/latex.html
 ```
-
-# Laboratoria
-
-## Zestaw 1
-
-### Zadanie 1
-
-Napisz skrypt wyswietlający wszystkie wiersze w których imiona zaczynają się na literę ```Z``` lub ```B```, a wiek jest poniżej ```30``` lat.
-
-### Zadanie 2
-
-Napisz skrypt wyświetlający wszystkich mieszkańców Warszawy, z użyciem ```Grepa``` oraz ```AWK```.
-
-### Zadanie 3
-
-Napisz skrypt wyświetlający imię i nazwisko osoby które dostały ocenę ```4 lub większą```. Wyniki posortuj alfabetycznie.
-
-### Zadanie 4
-
-Napisz skrypt wyświetlający osoby których nazwisko zaczyna się na literę ```K```, ```D``` lub ```S```, mają więcej niż ```31 lat``` i dostali ocenę ```5``` lub ```6```. Wyniki posortuj.
-
-### [Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%201.sh)
-
-## Zestaw 2
-
-### Zadanie 1
-
-Napisz skrypt tworzący ```katalog``` na pulpicie.
-
-### Zadanie 2
-
-Napisz skrypt który pyta czy jest już po ```18```, jeśli tak powinien odpowiedzieć ```Dobry Wieczór```, jeśli nie ```Dzień Dobry```.
-
-### Zadanie 3
-
-Napisz skrypt który pobierze od użytkownika numer ```1 - 7``` i wypisze dzień tygodnia. W alternatywie użyj ```Nieprawidłowa wartość```.
-
-### Zadanie 4
-
-Napisz skrypt który z bierzącego katalogu wszystkie nazwy plików z rozszerzeniem ```.txt``` oraz ```.jpg```.
-
-### Zadanie 5
-
-Napisz skrypt który pobierze jako parametr liczbę ```0 - 50```. Wartość ma zostać porównana z liczbą 85. Do wartości pobranej należy dodawać ```+3``` w pętli.
-
-### Zadanie 6
-
-Napisz skrypt który wyświetla dowolny tekst tyle razy ile chce użytkownik.
-
-### [Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%202.sh)
-
-## Zestaw 3
-
-### Zadanie 1
-
-Napisz skrypt który tworzy nowe pliki w danym ```katalogu``` (parametr wywołania skryptu), według listy umieszczonej w pliku (drugi parametr wywołania skryptu). Nowe pliki mają być puste. Jeśli któryś z plików istnieje, to nie jest on usuwany.
-
-### Zadanie 2
-
-Napisz skrypt porównujący zawartości dwóch zadanych ```katalogów``` (parametry wywołania skryptu). Przy porównywaniu ```ignoruje podkatalogi```. W wyniku wyświetla na ekranie listę identycznych plików w obu katalogach.
-
-### Zadanie 3
-
-Napisz skrypt zliczający wszystkie pliki w danym ```katalogu``` (parametr wywołania skryptu), do których ustawione jest prawo do ```wykonywania```.
-
-### Zadanie 4
-
-Napisz skrypt który wyświetla datę w formacie ```DD.MM.YYYY```.
-
-### Zadanie 5
-
-Napisz skrypt który będzie losował liczbę z zakresu ```1 - 100```. Pobierz od użytkownmika liczbę z zakresu ```1 - 100``` i sprawdź czy liczby są równe, jeśli nie wyświetl odpowiedni komunikat.
-
-### Zadanie 6
-
-Napisz skrypt który generuje ```trójkąt z gwiazdek```. Wysokość podaje użytkownik jako parametr wywołania skryptu.
-
-### [Rozwiązanie](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%203.sh)
-
-# Latex
-
-## Prezentacja
-
-- [Prezentacja](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/Latex%20-%20Prezentacja.pdf)
-- [Kod Źródłowy](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex/main.tex)
