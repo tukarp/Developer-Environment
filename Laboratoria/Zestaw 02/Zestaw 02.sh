@@ -64,4 +64,3 @@ for((i = 0; i < $B; i++))
 do
     echo $A;
 done
-
