@@ -1,6 +1,6 @@
 # Środowisko Programisty
 
-## Spis Treści
+## Spis treści
 
 ### Laboratoria
 
