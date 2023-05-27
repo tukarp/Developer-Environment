@@ -13,19 +13,19 @@ read c
 delta=$(bc <<< "$b ^ 2 - 4 * $a * $c")
 echo "Delta = $delta"
 
-if [ $(echo "$delta -gt 0" |bc -l) ]; then
+if [ $(echo "$delta -gt 0" |bc -l) ]; then {
     x1=$(bc <<< "scale=2; (-$b + sqrt($delta)) / (2 * $a)")
     x2=$(bc <<< "scale=2; (-$b - sqrt($delta)) / (2 * $a)")
     echo "Rozwiazania rownania kwadratowego:"
     echo "x1 = $x1"
     echo "x2 = $x2"
-elif [ $(echo "$delta -eq 0" |bc -l) ]; then
+} elif [ $(echo "$delta -eq 0" |bc -l) ]; then {
     x=$(bc <<< "scale=2; (-$b)/(2*$a)")
     echo "Rozwiazanie rownania kwadratowego:"
     echo "x = $x"
-else
+} else {
     echo "Równanie kwadratowe nie ma rozwiązań."
-fi
+} fi
 
 Zadanie 2
 #!/bin/bash
