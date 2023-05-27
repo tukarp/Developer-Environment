@@ -1,6 +1,6 @@
 # Środowisko Programisty
 
-## Zestaw 2
+## Zestaw 02
 
 ### Zadanie 1
 
