@@ -8,12 +8,13 @@ Zadanie 2
 echo "Czy jest juz po 18?"
 read user_input
 
-if [ $user_input = "tak" ]; then
+if [ $user_input = "tak" ]; then {
     echo "Milego wieczoru";
-elif [ $user_input = "nie" ]; then
+} elif [ $user_input = "nie" ]; then {
     echo "Dzien Dobry";
-else
+} else {
     echo "Nieprawidlowa odpowiedz";
+}
 fi
 
 Zadanie 3
@@ -36,10 +37,12 @@ esac
 Zadanie 4
 #!/bin/bash
 
-for file in *.jpg *.txt
-do
-    echo $file
-done
+for file in *.jpg *.txt {
+    do {
+        echo $file
+    }
+    done
+}
 
 Zadanie 5
 #!/bin/bash
@@ -47,9 +50,10 @@ Zadanie 5
 echo "Podaj liczbe od 0 do 50"
 read user_input
 
-while [ $user_input -lt 85 ]; do
+while [ $user_input -lt 85 ]; do {
     user_input=$(($user_input + 3));
     echo $user_input;
+}
 done
 
 Zadanie 6
@@ -61,7 +65,9 @@ read string
 echo "Podaj ile razy chcesz go wyswietlic"
 read number
 
-for((i = 0; i < $number; i++))
-do
-    echo $string;
-done
+for((i = 0; i < $number; i++)) {
+    do {
+        echo $string;
+    }
+    done
+}
