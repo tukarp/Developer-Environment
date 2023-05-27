@@ -2,12 +2,12 @@ Zadanie 1
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
-echo "Nieprawidlowa ilosc parametrow";
+	echo "Nieprawidlowa ilosc parametrow";
 fi
 
 if [ -d $1 ]; then
 	if [ -f $2 ]; then
-	plik=`cat $2`;
+	file=`cat $2`;
 	else
 	echo "Nieprawidlowy plik";
 	exit 1
@@ -16,7 +16,7 @@ else
 echo "$1 nie jest katalogiem";
 fi
 
-for i in $plik
+for i in $file
 	do
 	if [ ! -e $i ]; then
 	touch $1/$i ;
@@ -30,21 +30,23 @@ diff -s $1 $2
 
 Zadanie 3
 #!/bin/bash
+
 cd $1
 
-X=0
+executable_files_counter=0
 
 if A $# -eq 1; then
 	for file in *
 	do
 		if A -x $file; then
-			let X=$X+1;
+			let executable_files_counter=$executable_files_counter+1;
 		fi
-	done	
+	done
 else
 	echo "Bledna ilosc argumentow"
 fi
-echo "Liczba plikow z prawem do wykonania: $X"
+
+echo "Liczba plikow z prawem do wykonania: $executable_files_counter"
 
 Zadanie 4
 #!/bin/bash
@@ -55,26 +57,26 @@ Zadanie 5
 #!/bin/bash
 
 echo "Zgadnij liczbe od 1 do 100"
-read B
+read user_input
 
-let A=$RANDOM&100
+let random_number=$RANDOM&100
 
-if [ $B -eq $A ]; then
-echo "Brawo zgadles liczbe";
-elif [ $B -lt $A ]; then
-echo "Podana liczba jest mniejsza niz wylosowana";
-elif [ $B -gt $A ]; then
-echo "Podana liczba jest wieksza niz wylosowana";
+if [ $user_input -eq $random_number ]; then
+	echo "Brawo zgadles liczbe";
+elif [ $user_input -lt $random_number ]; then
+	echo "Podana liczba jest mniejsza niz wylosowana";
+elif [ $user_input -gt $random_number ]; then
+	echo "Podana liczba jest wieksza niz wylosowana";
 fi
-echo $A
-#wyswietlenie wylosowanej liczby
+
+echo "Wylosowana liczba: $random_number"
 
 Zadanie 6
 #!/bin/bash
 
-X=$1
+n=$1
 
-for((i = 1; i <= $X; i++))
+for((i = 1; i <= $n; i++))
 do
 	for((j = 1; j <= i; j++))
 	do

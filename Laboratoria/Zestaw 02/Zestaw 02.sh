@@ -6,23 +6,23 @@ Zadanie 2
 #!/bin/bash
 
 echo "Czy jest juz po 18?"
-read A
+read user_input
 
-if [ $A = "tak" ]; then
-echo "Milego wieczoru";
-elif [ $A = "nie" ]; then
-echo "Dzien Dobry";
+if [ $user_input = "tak" ]; then
+    echo "Milego wieczoru";
+elif [ $user_input = "nie" ]; then
+    echo "Dzien Dobry";
 else
-echo "Nieprawidlowa odpowiedz";
+    echo "Nieprawidlowa odpowiedz";
 fi
 
 Zadanie 3
 #!/bin/bash
 
 echo "Podaj liczby od 1 do 7 oznaczajace dni tygodnia"
-read A
+read user_input
 
-case $A in
+case $user_input in
 1) echo "Poniedzialek" ;;
 2) echo "Wtorek" ;;
 3) echo "Sroda" ;;
@@ -36,31 +36,32 @@ esac
 Zadanie 4
 #!/bin/bash
 
-for A in *.jpg *.txt
+for file in *.jpg *.txt
 do
-echo $A
+    echo $file
 done
 
 Zadanie 5
 #!/bin/bash
 
-X=$1 
+echo "Podaj liczbe od 0 do 50"
+read user_input
 
-while [ $X -lt 85 ]; do
-X=$(($X + 3));
-echo $X;
+while [ $user_input -lt 85 ]; do
+    user_input=$(($user_input + 3));
+    echo $user_input;
 done
 
 Zadanie 6
 #!/bin/bash
 
 echo "Podaj napis ktory chcesz wyswietlic:"
-read A
+read string
 
 echo "Podaj ile razy chcesz go wyswietlic"
-read B
+read number
 
-for((i = 0; i < $B; i++))
+for((i = 0; i < $number; i++))
 do
-    echo $A;
+    echo $string;
 done

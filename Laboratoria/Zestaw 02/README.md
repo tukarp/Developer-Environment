@@ -4,7 +4,7 @@
 
 ### Zadanie 1
 
-Napisz skrypt tworzący ```katalog``` na pulpicie.
+Napisz skrypt który utworzy ```katalog``` na pulpicie.
 
 ### Zadanie 2
 
@@ -24,4 +24,4 @@ Napisz skrypt który pobierze jako parametr liczbę ```0 - 50```. Wartość ma z
 
 ### Zadanie 6
 
-Napisz skrypt który wyświetla dowolny tekst tyle razy ile chce użytkownik.
+Napisz skrypt który wyświetli dowolny tekst tyle razy ile chce użytkownik.

@@ -8,6 +8,7 @@
 - [Zestaw 01](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2001)
 - [Zestaw 02](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2002)
 - [Zestaw 03](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2003)
+- [Zestaw 04](https://github.com/tukarp/Developer-Environment/blob/main/Laboratoria/Zestaw%2004)
 - [Prezentacja - Latex](https://github.com/tukarp/Developer-Environment/blob/main/Prezentacja%20-%20Latex)
 
 ### Notatki
